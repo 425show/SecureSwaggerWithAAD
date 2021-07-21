@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Open API Auth setup",
+  "steps": [
+    {
+      "file": "Startup.cs",
+      "description": "We need a Security Definition that describes the authentication scheme we plan to use. In this case,\r\nwe're using the Auth Code Flow with PKCE",
+      "line": 37,
+      "selection": {
+        "start": {
+          "line": 37,
+          "character": 1
+        },
+        "end": {
+          "line": 38,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "Startup.cs",
+      "description": "Implement the necessary Security Requirement for Open API",
+      "line": 55
+    },
+    {
+      "file": "Startup.cs",
+      "description": "Configure the UI to enable users to authenticate against Azure AD and acquire a token in order to call\r\nthe API endpoints from the Open API UI",
+      "line": 75
+    }
+  ]
+}
